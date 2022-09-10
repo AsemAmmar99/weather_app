@@ -1,16 +1,11 @@
 # weather_app
 
-Algoriza Phase 2 Final Project by 82 (Asem Ammar)
+#### Algoriza Phase 2 Final Project (Weather App) by 82 (Asem Ammar)
 
-## Getting Started
+## Recorded Video of the Application
 
-This project is a starting point for a Flutter application.
+https://user-images.githubusercontent.com/51675853/189497881-fef9d3f0-1318-46e1-9727-d086bbf5f7c6.mp4
 
-A few resources to get you started if this is your first Flutter project:
+## For Higher Quality Video 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://drive.google.com/drive/folders/1OrHlvP7Kjk6MZgJDeinhamicsdZvI4I4?usp=sharing
