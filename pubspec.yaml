@@ -28,7 +28,7 @@ dependencies:
   dio: ^4.0.4
   syncfusion_flutter_charts: ^20.2.48
   flutter_svg: ^1.1.4
-  cached_network_image: ^3.2.1
+  cached_network_image: ^3.2.3
   google_maps_flutter: ^2.2.0
   fluttertoast: ^8.0.9
   flutter_launcher_icons: "^0.9.2"

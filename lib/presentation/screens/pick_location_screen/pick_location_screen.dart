@@ -89,7 +89,7 @@ class _PickLocationScreenState extends State<PickLocationScreen> {
                 },
                 child: DefaultMaterialButton(
                     onPressed: () {
-                      if (clickedMarkerLat != null ||
+                      if (clickedMarkerLat != null &&
                           clickedMarkerLong != null) {
                         WeatherCubit.get(context).getCurrentWeatherResponse(
                             '$clickedMarkerLat,$clickedMarkerLong');
@@ -99,7 +99,7 @@ class _PickLocationScreenState extends State<PickLocationScreen> {
                             toastState: ToastStates.WARNING);
                       }
                     },
-                    child: DefaultText(text: 'Choose Location')),
+                    child: const DefaultText(text: 'Choose Location')),
               ),
             ),
           ],

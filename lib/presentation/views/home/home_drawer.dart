@@ -3,9 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:sizer/sizer.dart';
 import '../../../business_logic/cubit/weather_cubit/weather_cubit.dart';
 import '../../../constants/screens.dart';
-import '../../../data/source/local/my_shared_preferences.dart';
 import '../../styles/colors.dart';
-import '../../widgets/default_icon_button.dart';
 import '../../widgets/default_material_button.dart';
 import '../../widgets/default_text.dart';
 import '../../widgets/horizontal_divider.dart';
@@ -48,25 +46,8 @@ class _HomeDrawerState extends State<HomeDrawer> {
                 slivers: [
                   SliverToBoxAdapter(
                     child: Column(children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          Padding(
-                            padding: EdgeInsetsDirectional.only(
-                              top: 5.0.h,
-                            ),
-                            child: DefaultIconButton(
-                              onPressed: () {
-                                MySharedPreferences.clearShared();
-                              },
-                              icon: const Icon(Icons.settings_outlined,
-                                  color: Colors.white),
-                            ),
-                          ),
-                        ],
-                      ),
                       SizedBox(
-                        height: 10.h,
+                        height: 4.h,
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
